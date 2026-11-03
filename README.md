@@ -43,6 +43,7 @@ Copy `SKILL.md` into your agent's skills directory as `my-senior-dev/SKILL.md`.
 |---|---|
 | Claude Code (personal) | `~/.claude/skills/my-senior-dev/SKILL.md` |
 | Claude Code (project) | `.claude/skills/my-senior-dev/SKILL.md` |
+| Antigravity (global, Windows) | `%USERPROFILE%\.gemini\config\skills\my-senior-dev\SKILL.md`
 | Other harnesses | Wherever it loads skills or custom instructions from. The file is plain Markdown with YAML frontmatter. |
 
 ```bash
@@ -65,7 +66,3 @@ Edit `SKILL.md` directly. Common tweaks:
 - Concern cap (default 5)
 - The *Engineering baseline* section, to match your stack, linters, and team conventions
 - Plan phases, if your workflow differs
-
-## License
-
-Add your preferred license here (e.g. MIT).
